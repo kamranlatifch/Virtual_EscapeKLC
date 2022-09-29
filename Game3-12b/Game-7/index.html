@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game-7</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+
+  <link rel="stylesheet" type="text/css" href="game7css.css">
+</head>
+<body>
+<section class="header">
+  <div class="logos">
+    <img class="img1" src="img/experios.png">
+    <img class="img2" src="img/vescape.png">
+ 
+</div>
+  <div class="topbuttons">
+    <button class="btnconnected"><i class='far fa-address-card' style='font-size:15px;color:white'></i> 6Connected</button>
+    <button class="btnlogout"><i class='fas fa-sign-out-alt' style='font-size:15px;color:white'></i> Exit Game</button>
+</div>
+  </section>
+  <section class="top">
+    <div class="upper">
+    <h1>time's ticking</h1>
+    <div class="btn">
+    <button id="b1"><b>52:25</b><br>remaining</button>
+    <button id="b2"><b>0</b><br>incorrect</button>
+    <button id="b3"><b>1</b><br>hints used</button>
+    </div>
+  </div>
+    <div class="intro">
+      <p><span><b>wires</b></span><br><br>Great,the suitcase is open.<br>Time to start following the disarming steps.</p>
+    </div>
+    <div class="image">
+    	<div class="image_background">
+    		<img src="img/screenshot.png">
+    		<p>{click to enlarge}</p>
+    	</div>
+    	
+     
+</div>
+      <p id="intro_bottom">There's lots of wires and the squad isn't sure which ones they need to cut.<br><br>But they are sure you've got the skills to find out the correct wires to cut.<br>Have a close look at the bomb and the steps in the bomb in manual.</p>
+    
+  </section>
+ <section class="lower">
+    <div class="leftside">
+      <p><span><b>the challange</b></span><br>
+      Which 3 wires do the squad need to cut?</p>
+        <div class="check">
+    <div class="check1">
+      <input type="checkbox" id="checkbox" name="checkbox1" value="">
+<label for="checkbox"> W14</label>
+</div>
+<div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox2" value="">
+<label for="checkbox"> W19</label></div>
+<div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W21</label>
+    </div>
+
+    <div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W23</label>
+    </div>
+    <div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W43</label>
+    </div>
+    <div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W59</label>
+    </div>
+    <div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W64</label>
+    </div>
+    <div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W71</label>
+    </div>
+    <div class="check1">
+<input type="checkbox" id="checkbox" name="checkbox3" value="">
+<label for="checkbox"> W81</label>
+    </div>
+  </div>
+   <div class="submitbtn">
+    <button id="bt1"><b>request hint</b></button>
+    <button id="bt2"><b>submit answer</b></button>
+   </div>
+   <div class="messages">
+    <div id="p">
+    <p ><span>hint 1</span>: The bomb model is X64PLC</p>
+  </div>
+  <div id="p">
+    <p><span>hint 2</span>: Do not cut wire W71</p>
+  </div>
+    <div id="p">
+    <p><span>hint 3</span>: Step A,C,D,and F are not corret</p>
+  </div>
+  <div id="p">
+    <p><span>answer</span>: W21,W23 and W81(exact match)</p>
+   </div>
+   </div>
+
+    </div>
+    <div class="rightside">
+     <div class="btn_container"> <button><p>next hint available<br><span><b>now</b></span></p></button>
+      <button><p>hint penalty<br><span><b>-30s</b></span></p></button>
+      <button><p>incorrect answer penalty<br><span><b>-30s</b></span></p></button>
+  </div>
+    </div>
+
+
+
+ </section>
+</body>
+
+</html>

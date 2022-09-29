@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game-9</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+
+  <link rel="stylesheet" type="text/css" href="game9css.css">
+</head>
+<body>
+<section class="header">
+  <div class="logos">
+    <img class="img1" src="img/experios.png">
+    <img class="img2" src="img/vescape.png">
+ 
+</div>
+  <div class="topbuttons">
+    <button class="btnconnected"><i class='far fa-address-card' style='font-size:15px;color:white'></i> 6Connected</button>
+    <button class="btnlogout"><i class='fas fa-sign-out-alt' style='font-size:15px;color:white'></i> Exit Game</button>
+</div>
+  </section>
+  <section class="top">
+    <div class="upper">
+    <h1>time's ticking</h1>
+    <div class="btn">
+    <button id="b1"><b>52:25</b><br>remaining</button>
+    <button id="b2"><b>0</b><br>incorrect</button>
+    <button id="b3"><b>1</b><br>hints used</button>
+    </div>
+  </div>
+    <div class="intro">
+      <p><span><b>last known location</b></span><br>Yes!That worked,the bomb is now disarmed.<br><br>Thanks team,great work.You might want to consider a career at the Melbourn Police Dapartment...</p>
+    </div>
+    <div class="image">
+    	<div class="image_background">
+    		<img src="img/screenshot.png">
+    		<p>{click to enlarge}</p>
+    	</div>
+    	
+     
+</div>
+      <p id="intro_bottom">Now let's find the person responsible.<br><br>Have a look at his website and see if you can find anything related to his last known location.<br>Also make sure to have another look at that <u>evidence</u> we retrieved from the suspect's phone.</p>
+    
+  </section>
+ <section class="lower">
+    <div class="leftside">
+      <p><span><b>the challange</b></span><br>
+      What is the last known location of the suspect?</p>
+      <input type="text" name="">
+   <div class="submitbtn">
+    <button id="bt1"><b>request hint</b></button>
+    <button id="bt2"><b>submit answer</b></button>
+   </div>
+   <div class="messages">
+    <div id="p">
+    <p ><span>hint 1</span>: Perhaps he posted something on his social media account?</p>
+  </div>
+  <div id="p">
+    <p><span>hint 2</span>: It seems he visited a particular place quite often</p>
+  </div>
+    <div id="p">
+    <p><span>hint 3</span>: Take a look at the evidence file and find out the location of the top linkhe visited</p>
+  </div>
+  <div id="p">
+    <p><span>answer</span>: Church(anything with Church in it,any case)</p>
+   </div>
+   </div>
+
+    </div>
+    <div class="rightside">
+     <div class="btn_container"> <button><p>next hint available<br><span><b>now</b></span></p></button>
+      <button><p>hint penalty<br><span><b>-30s</b></span></p></button>
+      <button><p>incorrect answer penalty<br><span><b>-30s</b></span></p></button>
+  </div>
+    </div>
+
+
+
+ </section>
+</body>
+
+</html>

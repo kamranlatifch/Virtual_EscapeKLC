@@ -1,0 +1,329 @@
+ body,
+ html{ background: url(img/gamesteps.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html{
+		font-size: 62.5%;
+	}
+.header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 21%;
+	margin-right: auto;
+	width: 64%;
+	justify-content: start;
+	
+ /* display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  */
+
+  
+}
+.logos img{
+  
+  
+  margin: .8rem;
+
+}
+.topbuttons{
+	margin-left: 25%;
+}
+.topbuttons button{
+  background-color: #35515D;
+  opacity: 0.90;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.2rem;
+  
+  border:#35515D 1px solid;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin: .8rem;
+}
+.top{
+
+ display: grid;
+  background-color: #113446;
+  justify-content: start;
+  align-content: center;
+  margin-right: auto;
+  margin-left:auto ;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 58%;
+  color: white;
+  
+}
+.upper{
+	display: grid;
+  margin-top: 1.2rem;
+  grid-template-columns: 1fr 1fr;
+}
+.upper h1{
+	margin-left: 1.5rem;
+	text-transform: uppercase;
+	align-self: center;
+}
+
+.upper button{
+
+	border-radius: 5px;
+	color: white;
+	font-size: 1.2rem;
+	background-color: #35515D;
+	width: 10rem;
+	height: 5rem;
+	text-transform: uppercase;
+	margin: 0.5rem;
+	border: 1px solid grey;
+
+}
+.intro{
+	margin-left: 2rem;
+	font-size:1.3rem ;
+
+}
+.intro span{
+	color: green;
+	text-transform: uppercase;
+}
+.image{
+	display: grid;
+	background-color: #35515D;
+	justify-content: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-bottom: 2%;
+	border-radius: 5px ;
+	border: 1px solid grey;
+
+}
+.image img{
+	
+	justify-self: center;
+	margin-left:auto ;
+	margin-right: auto;
+	width: 95%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+.image p{
+	margin-left: 45%;
+	margin-top: 2%;
+}
+#intro_bottom{
+	margin-left: 3rem;
+	font-size: 1.6rem;
+}
+.lower
+{
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+	justify-content: center;
+	width: 64%;
+	margin-left: 21%;
+	
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.leftside{
+	display: grid;
+	color: white;
+	background-color: #113446;
+	justify-content: start;
+
+	border-radius: 5px;
+
+}
+.leftside span{
+	color: green;
+	text-transform: uppercase;
+	
+	font-size:1.3rem ;
+}
+.leftside p{
+	margin-left: 2rem;
+	font-size:1.3rem ;
+	margin-right: 2rem;
+}
+.check{
+	display: flex;
+	flex-wrap: wrap;
+	
+	font-size: 1.3rem;
+}
+.check1{
+	margin-left: 2rem;
+	display: flex;
+}
+.check1 label{
+	margin-left: .8rem;
+	font-size: 1.5rem;
+	margin-top: -5px;
+}
+
+#checkbox{
+     appearance: none;
+  background-color: #113446;
+  border-width: 5px;
+  border: 1px solid white;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#checkbox:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight:900 ;
+  content: "\f111";
+  font-size: 10px;
+  color: white;
+  display: none;
+
+
+}
+#checkbox:hover{
+  background-color: grey;
+
+}
+#checkbox:checked:after{
+  display: block;
+}
+/*.leftside input{
+	margin-left: 1.5rem;
+
+	width: 80%;
+	background-color: #35515D;
+	border-radius: 20px;
+	height: 3rem;
+	border: grey 1px solid;
+}*/
+.submitbtn
+{
+	margin-left: 1.2rem;
+	justify-content: start;
+	margin-top: 1rem;
+}
+.submitbtn button{
+	width: 40%;
+	background-color: #35515D;
+	border-radius: 20px;
+	height: 3rem;
+	border: grey 1px solid;
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: white;
+	margin: .8%;
+}
+.messages{
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+#p{
+	background-color: #35515D;
+	opacity: 0.8;
+	margin-right: auto;
+	border-radius: 2px;
+	width: 100%;
+	margin-top: -1.5%;
+	justify-self: center;
+}
+#p p{
+	font-size: 1.2rem;
+
+	align-self: center;
+	
+
+}
+.rightside
+{
+
+	background-color: #113446;
+	justify-content: center;
+	margin-left: 2rem;
+	width: 65%;
+	border-radius: 5px;
+}
+.btn_container{
+		display: grid;
+		margin-top: .2rem;
+		margin-bottom: 3rem;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+}
+.btn_container button{
+	 background-image: linear-gradient(180deg,#35515D,#03364b);background-color: #35515D;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 1rem;
+	border: 1px solid grey;
+	margin-top: 1.5rem;
+	width: 100%;
+	justify-content: center;
+}
+.btn_container button p{
+	
+	margin-top: 1rem;
+}
+#b1{
+   background-image: linear-gradient(180deg, #710c05, #ed3a2d);
+}
+#bt2{
+  background-image: linear-gradient(180deg,#ed3a2d,#710c05);
+}
+
+@media(max-width: 768px)
+{
+	html{
+		font-size: 55%;
+	}
+	.upper button{
+		font-size: 55%;
+		width: 8rem;
+		height: 3rem;
+		margin: 0;
+	}
+	body p{
+		font-size: 55%;
+	}
+	.btn_container button{
+		font-size: 55%;
+		margin-top: 100%;
+
+	}
+	.leftside button{
+		font-size: 45%;
+
+	}
+	.logos img{
+		width: 50%;
+	}
+	.topbuttons button{
+		font-size: 45%;
+		width: 50%;
+}
+.rightside
+{
+
+	margin-left: 1rem;
+	
+}
+
+
+}
