@@ -1,0 +1,159 @@
+body,
+html { 
+  background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logos{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
+
+  
+
+}
+.logos img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.topbuttons{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.topbuttons button{
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #35515D;
+  opacity: 0.90;
+  border-radius: 30px;
+  width: 30%;
+  color: white;
+  border:#35515D 1px solid;
+  font-family: 'Montserrat';
+}
+
+.team_name{
+ display: grid;
+ justify-content:center;
+ background-color:#35515D ;
+ margin-right: 22%;
+ margin-left: 22%;
+ border-radius: 5px;
+ color: white;
+ }
+ .team_btn{
+  background-color: grey;
+  border-radius: 30px;
+  width: 50%;
+  color: white;
+  justify-self: center;
+  margin-bottom: 10px;
+  border: grey 1px solid;
+
+ }
+
+.get_started{
+ display: grid;
+ justify-content: center;
+ background-color:#35515D ;
+ margin-right: 22%;
+ margin-left: 22%;
+ border-radius: 5px;
+ color: white;
+ margin-top: 10px;
+}
+.get_started p{
+  margin-left: 60px;
+}
+.ft_buttons{
+  justify-self: center;
+}
+.ft_buttons button{
+  border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+#btn1{
+  background-color: red;
+  color: white;
+  width: 200px;
+  margin-right: 5px;
+  border: red 1px solid;
+}
+#btn2{
+  background-color: grey;
+  color: white;
+  width: 200px;
+  margin-right: 5px;
+  border: grey 1px solid;
+  
+}
+.check{
+  margin-left: 150px;
+
+}
+.check1{
+  display: flex;
+  margin-right: 5px;
+}
+label{
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.check2{
+  display: flex;
+  margin-right: 5px;
+}
+.check3{
+  display: flex;
+  margin-right: 5px;
+}
+
+#checkbox{
+     appearance: none;
+  background-color: #35515D;
+  border-width: 5px;
+  border: 1px solid white;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#checkbox:after{
+  font-family: "Font Awesome 5 Free";
+  font-weight:900 ;
+  content: "\f00c";
+  font-size: 10px;
+  color: white;
+  display: none;
+
+}
+#checkbox:hover{
+  background-color: grey;
+
+}
+#checkbox:checked:after{
+  display: block;
+}
+button:hover{
+  border-color: blue;
+  opacity: 0.5;
+}

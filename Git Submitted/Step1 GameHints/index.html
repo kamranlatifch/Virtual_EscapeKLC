@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page4</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+
+  <link rel="stylesheet" type="text/css" href="gamestepscss.css">
+</head>
+<body>
+<section class="header">
+  <div class="logos">
+    <img class="img1" src="img/experios.png">
+    <img class="img2" src="img/vescape.png">
+ 
+</div>
+  <div class="topbuttons">
+    <button class="btnconnected"><i class='far fa-address-card' style='font-size:15px;color:white'></i> 6Connected</button>
+    <button class="btnlogout"><i class='fas fa-sign-out-alt' style='font-size:15px;color:white'></i> Exit Game</button>
+</div>
+  </section>
+  <section class="top">
+    <div class="upper">
+    <h1>time's ticking</h1>
+    <div class="btn">
+    <button id="b1"><b>52:25</b><br>remaining</button>
+    <button id="b2"><b>0</b><br>incorrect</button>
+    <button id="b3"><b>1</b><br>hints used</button>
+    </div>
+  </div>
+    <div class="intro">
+      <p><span><b>intro</b></span><br><br>All right,we've just received a phone call from a terrorist threatening the blow up a building in the city in the next 60 minutes.<br><br>We need to find the bomb and disarm it.<br>We than need to catch the terrorist.Let's work together and do this.<br><br>Here is the audio recording with the terrorist.</p>
+    </div>
+    <div class="audio">
+      <p>audio recording</p>
+      <div class="bkimg">
+        <img id="playbutton" src="img/playbutton.png">
+      </div>
+      <div class="timeplay">
+        <p id="time1">0:00</p>
+        <p id="time2">2:52</p>
+</div>
+      <!-- <img id="audioline" src="img/audioline.png"> -->
+      
+    </div>
+    <div class="evidence">
+      <p><span><b>evidence</b></span><br><br>Our tech team managed to secure some evidence from his phone before he switched it off.<br>We've also identified he's somewhere in the east of Melbourne,Australia.But the call was too short for an exact location.<br><br>Before we look for him,let's first find the bomb and disarm it.<br>Hopefully one of the websites contains more information about its location and how to disarm it.<br><br>Can you have a look at the websites and inform me once you find a suspicious looking website that could contain more information?</p>
+    </div>
+    <div class="evd_data">
+      <section class="insideevd">
+      <div class="evd1">
+          <img id="firstevd" src="img/evidence1.png">
+          <p>Evidence_1.txt</p>
+      </div>
+      <div class="evd2">
+          <img id="secondevd" src="img/evidence2.png">
+          <p>Evidence_2.png</p>
+      </div>
+    </section>
+     <div class="clicktoenlarge"> <p>(click to enlarge)</p></div>
+    </div>
+  </section>
+ <section class="lower">
+    <div class="leftside">
+      <p id="qustp"><span><b>the challange</b></span><br>
+      Which website is likely to contain more information about the bomb?</p>
+      <select class="select" name="websites" >
+    <option type="website" name="website">Bjorn's website<br>  
+   </select>
+   <div class="submitbtn">
+    <button id="bt1">request hint</button>
+    <button id="bt2">submit answer</button>
+   </div>
+   <div class="messages">
+    <div id="p">
+    <p ><span>hint 1</span>:Have you opened the websites and found one that is looking rather suspicious?</p>
+  </div>
+  <div id="p">
+    <p><span>hint 2</span>:There seems to be one website that requires a password to access it</p>
+  </div>
+    <div id="p">
+    <p><span>hint 3</span>:What about the Bjorn website?</p>
+  </div>
+  <div id="p">
+    <p><span>answer</span>:Bjorn's website</p>
+   </div>
+   </div>
+
+    </div>
+    <div class="rightside">
+      <button><p>next hint available<br><span><b>now</b></span></p></button>
+      <button><p>hint penalty<br><span><b>-30s</b></span></p></button>
+      <button><p>incorrect answer penalty<br><span><b>-30s</b></span></p></button>
+    </div>
+
+
+
+ </section>
+</body>
+
+</html>

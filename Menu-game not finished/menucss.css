@@ -1,0 +1,221 @@
+body,
+html { 
+  background: url(img/mainmenu.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+html{
+    font-size: 62.5%;
+  }
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 21%;
+  margin-right: auto;
+  width: 64%;
+  justify-content: start;
+  
+ /* display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  */
+
+  
+}
+.logos img{
+  
+  
+  margin: .8rem;
+
+}
+.topbuttons{
+  margin-left: 25%;
+}
+.topbuttons button{
+  background-color: #35515D;
+  opacity: 0.90;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.2rem;
+  
+  border:#35515D 1px solid;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin: .8rem;
+}
+.statements{
+  display: grid;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.statements h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  justify-self: center;
+  
+}
+.statements h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+
+}
+
+.commands{
+  display:flex;
+  justify-content: center;
+  margin-top: 5%;
+  justify-items: center;
+ 
+  
+}
+.commands button{
+  border-radius: 20px;
+ justify-content: center;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  margin-right: 1rem;
+ opacity: 0.9;
+ border: 1px solid grey;
+  color: white;
+  
+
+   background-image: url(img/background.png);
+            background-size: auto 200px;
+            width: 14rem;
+            height: 20rem;
+            padding: 4rem 2rem;
+            margin-bottom: 5%;
+            font-size: 1.5rem;
+
+            background-color: #35515D;
+
+}
+
+button:hover{
+  border-color: blue;
+
+}
+
+.icon{
+color: white;
+font-size: 6rem;
+}
+
+.cmd1{
+  display: grid;
+  justify-content: space-between;
+}
+.cmd2{
+  display: grid;
+  justify-content: space-between;
+}
+.cmd3{
+  display: grid;
+  justify-content: space-between;
+}
+.cmd4 {
+ display: grid;
+  justify-content: space-between;
+
+}
+
+#redbtn button{
+  
+
+background-image: url(img/image2.png);
+
+   background-size: auto 200px;
+   background-color: rgb(190, 31, 42);
+   opacity: 0.98;
+            /*background-size: auto 200px;
+            width: 14rem;
+            height: 20rem;
+            padding: 4rem 2rem;
+            margin-bottom: 5%;
+            font-size: 1.5rem;*/
+  
+}
+
+
+#continue{
+  background: linear-gradient(180deg,indianred,red);
+}
+
+
+
+
+
+@media(max-width: 768px)
+{
+  html{
+    font-size: 55%;
+  }
+  .upper button{
+    font-size: 55%;
+    width: 8rem;
+    height: 3rem;
+    margin: 0;
+  }
+  body p{
+    font-size: 55%;
+  }
+  .btn_container button{
+    font-size: 55%;
+    margin-top: 100%;
+
+  }
+  .leftside button{
+    font-size: 45%;
+
+  }
+  .logos img{
+    width: 50%;
+  }
+  .topbuttons button{
+    font-size: 45%;
+    width: 50%;
+}
+.rightside
+{
+
+  margin-left: 1rem;
+  
+}
+.commands button{
+  width: 16%;
+  font-size: 70%;
+  height: 50%;
+
+}
+
+#redbtn button{
+  width: 85%;
+  font-size: 70%;
+  height: 85%;
+  
+  
+}
+.icon{
+  font-size: 150%;
+ 
+}
+#redbtn{
+  width: 20%;
+  height: 50%;
+}
+.cmd3 span{
+  font-size: 88%;
+}
+
+}

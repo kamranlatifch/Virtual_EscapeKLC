@@ -1,0 +1,277 @@
+body,
+html { 
+  background: url(mainmenu.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+html{
+    font-size: 62.5%;
+  }
+  .lessresponsive{
+    display: grid;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+
+    z-index: 0;
+   
+  }
+   .glow ::before , .glow::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg,purple,blue,red,violet,green);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    border-radius: 5px;
+    
+  }
+  }
+   .flow ::before , .flow::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg,purple,blue,red,violet,green);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 50s linear infinite;
+    border-radius: 5px;
+    
+  }
+
+  @keyframes animate  {
+        0%{
+            background-position: 0 0;
+
+        }
+        50%{
+             background-position: 400% 0;
+        }
+         100%{
+            background-position: 0 0;
+
+        }
+
+    }
+    .glow::after{
+      filter: blur(20px);
+    }
+  .header{
+    display: grid;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+  }
+  .container{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: black;
+    border-radius: 5px;
+
+    
+  }
+  .container button{
+    color: white;
+    border: 1px solid grey;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 25.2rem;
+    height: 3rem;
+    margin: .5rem;
+    background-image: linear-gradient(180deg,#113446,#35515D);
+    box-shadow: 2px 2px 2px 2px rgb(255,0,255);
+    cursor: pointer;
+  }
+  .up1{
+    display: grid;
+  }
+  .up2{
+    display: grid;
+  }
+  .moreresponsive{
+    display: grid;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+   
+    opacity: 0.8;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    margin-top: 1rem;
+
+
+  }
+  .moreresponsive p{
+    justify-self: center;
+
+  }
+  .container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    background-color: black;
+    border-radius: 5px;
+
+    
+  }
+
+  .container2 button{
+    color: white;
+    border: 1px solid grey;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(255,0,255);
+    height: 3rem;
+    margin: .5rem;
+    background-image: linear-gradient(180deg,#113446,#35515D);
+    cursor: pointer;
+  }
+  .low1{
+    display: grid;
+  }
+  .low2{
+    display: grid;
+  }
+  .low3{
+    display: grid;
+  }
+
+  @media(max-width: 768px)
+{
+  html{
+    font-size: 50%;
+  }
+
+  body p{
+    font-size: 55%;
+  }
+ 
+
+
+.lessresponsive{
+  
+    width: 50%;
+
+
+  }
+  .header{
+    
+    font-size: 1rem;
+  }
+ 
+  }
+  .container button{
+    width: 80%;
+    height: 3rem;
+    font-size: 1rem;
+    justify-self: center;
+ }
+  
+
+  .moreresponsive{
+    
+    width: 50%;
+    
+
+
+  }
+  
+  .container2{
+  
+    
+  }
+  .container2 button{
+   
+    height: 3rem;
+    font-size: 1rem;
+   }
+ 
+
+
+}
+
+@media only screen and (max-width: 900px){
+
+
+html{
+    font-size: 50%;
+  }
+
+  body p{
+    font-size: 55%;
+  }
+ 
+
+
+.lessresponsive{
+  
+    width: 50%;
+
+
+  }
+  .header{
+    
+    font-size: 1rem;
+  }
+  .container{
+   
+
+    
+  }
+  .container button{
+    width: 80%;
+    height: 3rem;
+    font-size: 1rem;
+    justify-self: center;
+ }
+  
+
+  .moreresponsive{
+    
+    width: 50%;
+    
+
+
+  }
+  
+  .container2{
+  
+    
+  }
+  .container2 button{
+   
+    height: 3rem;
+    font-size: 1rem;
+   }
+ 
+
+
+
+}

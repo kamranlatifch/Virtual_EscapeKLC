@@ -1,0 +1,144 @@
+body,
+html { 
+  background: url(img/mainmenu.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logos{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
+
+  
+
+}
+.logos img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.topbuttons{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.topbuttons button{
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #35515D;
+  opacity: 0.90;
+  border-radius: 30px;
+  width: 30%;
+  color: white;
+  font-family: 'Montserrat';
+}
+.statements{
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+}
+.statements h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-left: 20%;
+}
+.statements h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  align-self: center;
+
+}
+.commands{
+  display:flex;
+  justify-content: center;
+  margin-top: 5%;
+  justify-items: center;
+ 
+  
+}
+.commands button{
+  border-radius: 20px;
+ justify-content: center;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+ opacity: 0.9;
+
+  color: white;
+  
+
+   background-image: url(img/background.png);
+            background-size: auto 200px;
+            width: 160px;
+            height: 200px;
+            padding: 40px 20px;
+            margin-bottom: 5%;
+            font-size: 1rem;
+
+            background-color: #35515D;
+
+}
+button:hover{
+  border-color: blue;
+
+}
+.icon{
+color: white;
+font-size: 50px;
+}
+.cmd1{
+  display: grid;
+  justify-content: space-between;
+}
+.cmd2{
+  display: grid;
+  justify-content: space-between;
+}
+.cmd3{
+  display: grid;
+  justify-content: space-between;
+}
+.cmd4 {
+ display: grid;
+  justify-content: space-between;
+
+}
+#redbtn button{
+  
+
+background-image: url(img/image2.png);
+
+   background-size: auto 200px;
+   background-color: rgb(190, 31, 42);
+   opacity: 0.98;
+            width: 160px;
+            height: 200px;
+            padding: 40px 10px;
+            margin-bottom: 5%;
+            font-size: 1rem;
+            text-align: center;
+
+
+
+
+
+/*  background-size: auto 230px;
+  background-color: rgb(191, 31, 42);
+  opacity: 0.90;*/
+  
+}

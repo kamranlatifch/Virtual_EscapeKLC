@@ -1,0 +1,120 @@
+body,
+html { 
+  background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logos{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
+
+  
+
+}
+.logos img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.topbuttons{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.topbuttons button{
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #35515D;
+  opacity: 0.90;
+  border-radius: 30px;
+  width: 30%;
+  color: white;
+
+  font-family: 'Montserrat';
+}
+.container{
+  display: grid;
+  justify-content: center;
+
+  width: 35%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #35515D;
+  opacity: 0.95;
+    color: white;
+  font-size: x-small;
+  grid-gap: 5px;
+  font-style: 'Montseerat';
+  }
+ .overview{
+  background-color: #154c79;
+  border-radius: 5px;
+  display: inline-flex;
+
+
+  
+ }
+ .teamworks{
+  background-color: #154c79;
+  border-radius: 5px;
+  display: inline-flex;
+
+  
+ }
+ .penalties{
+  background-color: #154c79;
+  border-radius: 5px;
+  display: inline-flex;
+
+ }
+ .container .return
+ {
+  justify-self: center;
+}
+ .return button{
+  background-color: red;
+  justify-items: center;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+  border-color: red;
+  margin-bottom: 10px;
+ }
+ .overview .far{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+ }
+ .overview p{
+  margin-top: 10px;
+ }
+.teamworks .fa{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.teamworks p{
+ margin-top: 10px;
+}
+.penalties .far{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 5px;
+ }
+ .penalties p{
+ margin-top: 10px;
+}
